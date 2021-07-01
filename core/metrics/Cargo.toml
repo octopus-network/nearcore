@@ -6,6 +6,6 @@ edition = "2018"
 
 [dependencies]
 lazy_static = "1.4"
-prometheus = "0.11"
+prometheus = { version = "0.11", default-features = false }
 log = "0.4"
 
